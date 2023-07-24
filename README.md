@@ -6,9 +6,9 @@ a template for my go-to deps.edn based development setup
 
 
 This is a template project for use with [deps-new](https://github.com/seancorfield/deps-new).
-As originally generated, it will produce a new library project when run:
+As originally generated, it will produce a new library project `myusername/mycoollib` when run in your terminal:
 
-    $ clojure -Sdeps '{:deps {net.clojars.mavbozo/clj-playaround-template {:local/root "."}}}' -Tnew create :template mavbozo/clj-playaround-template :name myusername/mycoollib
+    clojure -Sdeps '{:deps {com.github.mavbozo/clj-playaround-template {:git/sha "ab11efb4c39f4f7161db62dcaf0989d4d01b9319"}}}' -Tnew create :template mavbozo/clj-playaround-template :name myusername/mycoollib
 
 Assuming you have installed `deps-new` as your `new` "tool" via:
 
